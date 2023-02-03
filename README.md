@@ -1,8 +1,9 @@
 <h1 align="center"> Challenge ONE  Decodificador de texto </h1>
+<p align="center"><img src="./assets/badgeprojeto.png"  width=20%"></p>
 
-## :man_artist: Autor
+## :man_artist: Autor</h2>
 
-<img src="https://avatars.githubusercontent.com/u/19674612?v=4" width="100px">
+<img  src="https://avatars.githubusercontent.com/u/19674612?v=4" width="100px">
 
 [kaduej](https://github.com/kaduej) :wave:
 
