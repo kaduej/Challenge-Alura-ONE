@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e5e5e5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    
+}
+.logopagina {
+
+    background-image: url(./assets/circuitotop.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    padding-top: 20px;
+    width: 13%;
+    display: inline;
+    
+}
+
+.tituloprincipal {
+
+    
+    margin-top: 15px;
+    text-align: center;
+    color: #148ba0;
+    padding-top: 80px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 550;
+      
+    
+}
+
+main {
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+}
+
+
+
+.text-area {
+
+    background: rgb(255, 255, 255);
+    background-image: url(./assets/circuitobottom.png);
+    resize: none;
+    border: 2px solid #148ca0;
+    color: #525252;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 24px;
+    
+}
+
+::placeholder { color: #148ca0; padding: 5px 10px; }
+    .text-area:focus {
+        outline: none;
+        border-color: #525252;
+    }
+
+.mensagem {
+
+    background: rgb(255, 255, 255);
+    max-width: fit-content;
+    background-image: url(./assets/circuitobottom.png);
+    resize: none;
+    background-repeat: no-repeat;
+    border: 2px solid #148ca0;
+    border-radius: 24px;
+    color: #525252;
+    margin-left: 98px;
+    margin-top: 28px;
+    padding-left: 20px;
+    position: absolute;
+    background-position: bottom right;
+    background-size: 100%;
+    
+
+}
+.mensagem:focus {
+    outline: none;
+    border-color: #525252;
+}
+
+.botoes {
+
+    display: flex;
+    margin-top: 18px;
+    	
+}
+
+.botao-desemcriptar {
+
+    background: #D8DFE8;
+    border: 2px solid #148ca0;
+    border-radius: 24px;
+    color: #148ca0;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: transform .5s;
+}
+
+.botao-desemcriptar:hover{
+	transform: scale(1.05);
+	background: #202020;
+	border-radius: 24px;
+	color: white;
+}
+.botao-encritptar {
+
+    background: #148ca0;
+    border: 2px solid #148ca0;
+    border-radius: 24px;
+    color: #c8d9e2;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    width: 328px;
+    transition: transform .5s;
+}
+
+.botao-encritptar:hover{
+	transform: scale(1.05);
+	background: #202020;
+	border-radius: 24px;
+	color: white;
+}
+
+.botao-copiar {
+
+    border: 2px solid #148ca0;
+    border-radius: 24px;
+    color: #148ca0;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 480px;
+    width: 336px;
+    position: absolute;
+    transition: transform .5s;
+}
+
+.botao-copiar:hover{
+    transform: scale(1.05);
+	background: #202020;
+	border-radius: 24px;
+	color: white;
+}
+
+.informacao {
+
+    
+    font-size: small;
+    font-weight: 2px;
+    color: #495057;
+    
+       
+}
+
+.espacamento {
+    display: flex;
+    float: left;
+}
+
+.cyborgcomplete {
+
+    padding-left: 500px;
+    display: inline;
+        
+}
+
+footer{
+
+    font-size: 14px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.social-list {
+
+    gap: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    transition: 0,4s;
+}
+
+
+
+footer p {
+    padding-bottom: 15px;
+}
+footer ul li {
+    transition: transform .3s;
+}
+
+footer ul li:hover {
+    transform: scale(1.2);
+}

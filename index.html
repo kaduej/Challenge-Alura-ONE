@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logopagina" src="./assets/cyborgstart.png" alt="cyborg">
+        <h1 class="tituloprincipal"> Hello human!<br> I can help you by encrypting any message you want.</h1>
+    </header>
+
+     <main>   
+        <section>
+            <textarea class="text-area" cols="44" rows="6" placeholder="Enter your text"></textarea>
+
+            <div>
+                <p class="informacao"> &lowast; Only lowercase letters and no accent.</p>
+            </div>
+            
+            <div class="botoes">
+                <button class="botao-encritptar" onclick="botaoEncritptar()">Encrypt</button>
+                <button class="botao-desemcriptar" onclick="botaoDesencriptar()">Decrypt</button>
+            </div>                    
+        </section>
+
+        <section>
+        
+            <textarea class="mensagem" cols="20" rows="11"></textarea>
+            <button class="botao-copiar" onclick="botaocopiar()"> Copy</button>
+            <img class="cyborgcomplete" widht="280" height="600" src="./assets/cyborgcomplete.png">
+            
+        </section>  
+        
+       
+            
+        
+        
+    </main>
+    
+    <script src="script.js"></script>
+
+    <footer>
+        <div>
+            <p> Me sigam nas redes sociais :)</p>
+            <ul class="social-list">
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://www.twitch.tv/kazure_">
+                    <img src="./assets/twitch.png" alt="Twitch logo">    
+                    </a>
+                </li>
+
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://www.twitter.com/kaduej">
+                    <img src="./assets/twitter.png" alt="twitter logo">   
+                        
+                    </a>
+                </li>
+
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://www.instagram.com/kaduej">
+                        <img src="./assets/instagram.png" alt="instagram logo">
+                        
+                    </a>
+                </li>
+
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://www.youtube.com/kaduej">
+                        <img src="./assets/youtube.png" alt="Youtube logo">
+
+                    </a>
+                </li>
+
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://github.com/kaduej/">       
+                        <img src="./assets/github.png" alt="Github logo">
+            
+                        
+                    </a>
+                </li>
+
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://steamcommunity.com/id/kaduej/">
+                    <img src="./assets/steam.png" alt="Steam logo">
+                    
+
+                        
+
+                    </a>
+                </li>
+                
+                <li>
+                    <a 
+                    target="_blank"
+                    href="https://www.linkedin.com/in/cejacinto/">
+                    <img src="./assets/linkedin.png" alt="Linkedin Logo">
+                    
+                    
+                    </a>
+                </li>
+            </ul>
+        </div>
+		<p class="copy"> &copy; Copyright Carlos Eduardo Jacinto – 2023. Programa ONE - Challenge Encriptador</p>
+	</footer>
+</body>
+</html>
